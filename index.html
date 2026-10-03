@@ -1,0 +1,242 @@
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUN.HOUSE | البرجر بطريقة مختلفة</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="nav-actions-left">
+                <button class="cart-btn" id="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">الرئيسية</a></li>
+                <li><a href="#features">مميزاتنا</a></li>
+                <li><a href="#menu">المنيو</a></li>
+                <li><a href="#about">قصتنا</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+
+            <div class="logo">
+                <span class="logo-text">BUN.HOUSE</span>
+            </div>
+        </div>
+    </header>
+
+   
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <img src="hedar.jpg" alt="Burger Background" class="hero-bg-img">
+        <div class="container hero-content">
+            <span class="badge"><i class="fa-solid fa-burger"></i> طعم يستاهل التجربة</span>
+            <h1>البرجر بطريقة مختلفة.</h1>
+            <p>لحمة طازجة، خبز محمص، صوصات خاصة وطعم معمول للناس اللي بتحب البرجر بجد.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn primary-btn">شوف المنيو 🍔</a>
+                <a href="#contact" class="btn secondary-btn">زورنا النهاردة</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-drumstick-bite"></i></div>
+                    <h3>مكونات طازجة</h3>
+                    <p>بنستخدم مكونات طازجة عشان كل وجبة تطلع بأفضل جودة.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                    <h3>تسوية مظبوطة</h3>
+                    <p>برجر متحضر بعناية ومتسوي بالطريقة اللي تحبها.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h3>خدمة سريعة</h3>
+                    <p>اطلب وجبتك واستمتع بيها من غير انتظار طويل.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>قائمة الطعام (المنيو)</h2>
+                <p>اختر ما يناسب شهيتك من أشهى وجبات البرجر والمقبلات</p>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="Spicy Burger.jpg" alt="Spicy Burger">
+                    <div class="card-body">
+                        <h3>Spicy Burger</h3>
+ <p class="description">برجر لحم مشوي مع صوص حار، جبنة، خضار طازج، ويقدم مع بطاطس.</p>
+                        <div class="card-footer">
+                            <span class="price">210 ج.م</span>
+                            <button class="btn-sm order-btn" data-name="Spicy Burger" data-price="210">أضف للطلب</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="Double Cheese.jpg" alt="Double Cheese">
+                    <div class="card-body">
+                        <h3>Double Cheese</h3>
+                        <p class="description">طبقتين من لحم البقر الفاخر مع شيدر سايح وصوص الخاص.</p>
+                        <div class="card-footer">
+                            <span class="price">240 ج.م</span>
+                            <button class="btn-sm order-btn" data-name="Double Cheese" data-price="240">أضف للطلب</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="Classic Burger.jpg" alt="Classic Burger">
+                    <div class="card-body">
+                        <h3>Classic Burger</h3>
+                        <p class="description">الطعم الأصلي الكلاسيكي بطريقة تحضير فاخرة.</p>
+                        <div class="card-footer">
+                            <span class="price">180 ج.م</span>
+                            <button class="btn-sm order-btn" data-name="Classic Burger" data-price="180">أضف للطلب</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="Loaded Fries.jpg" alt="Loaded Fries">
+                    <div class="card-body">
+                        <h3>Loaded Fries</h3>
+                        <p class="description">بطاطس كرسبي مع جبنة سايحة وصوص BUN HOUSE المميز.</p>
+                        <div class="card-footer">
+                            <span class="price">120 ج.م</span>
+                            <button class="btn-sm order-btn" data-name="Loaded Fries" data-price="120">أضف للطلب</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="Fresh Drinks.jpg" alt="Fresh Drinks">
+                    <div class="card-body">
+                        <h3>Fresh Drinks</h3>
+                        <p class="description">مشروبات باردة ومنعشة تناسب وجبتك.</p>
+                        <div class="card-footer">
+                            <span class="price">60 ج.م</span>
+                            <button class="btn-sm order-btn" data-name="Fresh Drinks" data-price="60">أضف للطلب</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <img src="Signature Combo.webp" alt="Signature Combo">
+                    <div class="card-body">
+                        <h3>Signature Combo</h3>
+                        <p class="description">تجربة متكاملة من أشهى أطباق البرجر والمقبلات.</p>
+                        <div class="card-footer">
+                            <span class="price">260 ج.م</span>
+                            <button class="btn-sm order-btn" data-name="Signature Combo" data-price="260">أضف للطلب</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-text">
+                <span class="about-tag">ABOUT BUN HOUSE</span>
+                <h2>مش مجرد برجر.. دي تجربة.</h2>
+ <p>في BUN HOUSE بنؤمن إن البرجر الحلو مش محتاج تعقيد. مكونات كويسة، وصفة مظبوطة، وطريقة تقديم تخليك عايز ترجع تاني.</p>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-check"></i> مكونات طازجة يوميًا</li>
+                    <li><i class="fa-solid fa-check"></i> وصفات وصوصات خاصة</li>
+                    <li><i class="fa-solid fa-check"></i> جودة ثابتة في كل طلب</li>
+                    <li><i class="fa-solid fa-check"></i> تجربة مناسبة للأصحاب والعيلة</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="ABOUT.jpg" alt="About Bun House">
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-container-box">
+                <h2>مستنيينك 🖐</h2>
+                <p>تعالى زورنا أو تواصل معنا واطلب وجبتك بكل سهولة.</p>
+                <div class="contact-info-list">
+                    <p><i class="fa-solid fa-location-dot"></i> <strong>العنوان:</strong> المنصورة، مصر</p>
+                    <p><i class="fa-solid fa-phone"></i> <strong>الهاتف:</strong> 01000000000</p>
+                    <p><i class="fa-solid fa-clock"></i> <strong>مواعيد العمل:</strong> يومياً من 12 ظهراً إلى 2 صباحاً</p>
+                    <p><i class="fa-brands fa-instagram"></i> <strong>انستجرام:</strong> <a href="https://instagram.com/bunhouse.eg" target="_blank">@bunhouse.eg</a></p>
+                </div>
+            </div>
+
+            
+            <div class="map-container">
+                <h3>مكاننا على الخريطة</h3>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.077271875143!2d31.380695!3d31.040949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDAyJzM3LjQiTiAzMcKwMjInNTIuNSJF!5e0!3m2!1sen!2seg!4v1620000000000!5m2!1sen!2seg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>جميع الحقوق محفوظة &copy; 2026 BUN.HOUSE</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="tel:01000000000" class="floating-call-btn" title="اتصل بنا">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+
+<!-- نافذة السلة المنبثقة (Cart Modal) -->
+<div class="cart-modal" id="cart-modal">
+    <div class="cart-content">
+        <span class="close-cart" id="close-cart">&times;</span>
+        <h2>سلة المشتريات 🛒</h2>
+        <div id="cart-items-container">
+            <p class="empty-cart-msg">السلة فارغة حالياً..</p>
+        </div>
+        <div class="cart-total">
+            <span>المجموع الكلي: </span>
+            <span id="total-price">0 ج.م</span>
+        </div>
+        <button class="checkout-btn">إتمام الطلب</button>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
